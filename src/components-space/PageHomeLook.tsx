@@ -22,7 +22,7 @@ const PageHomeLook = () => {
   return(
     <div className = "PageHomeLook" >
       <div>
-        <h4 className = "PageHomeLookTitle">Choose the best thing</h4>
+        <h4 className = "PageHomeLookTitle">Choose the best Aravind</h4>
         <button style = {{boxShadow: isShadow ? '0px 0px 50px rgba(255, 255, 255, .5': '0px 0px 0px rgba(0, 0, 0, 0'}} className = "PageHomeLookDirectButton" onClick={handleDirectButtonClick}>OnlySpot</button>
         <button style = {{boxShadow: isShadow2 ? '0px 0px 50px rgba(255, 255, 255, .5': '0px 0px 0px rgba(0, 0, 0, 0'}} className="PageHomeLookManyButton" onClick = {handleManyButtonClick}>ManySpot</button>
 
